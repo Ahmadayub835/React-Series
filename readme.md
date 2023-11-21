@@ -1,1 +1,1 @@
-test is my rest
+This is the react pratice projects
