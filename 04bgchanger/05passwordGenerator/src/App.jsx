@@ -18,7 +18,7 @@ function App() {
     if (char) str += "!@#$%^&*()_+-={}[]|:;";
 
     for (let i = 0; i < length; i++) {
-      let char = Math.floor(Math.random() * str.length); //Math.random is used to generate random numbers and str.lenght
+      let char = Math.floor(Math.random() * str.length); //Math.random is used to generate random numbers and str.lenght and Math.floor always rounds down and returns the largest integer less than or equal to a given number.
       generatedPass += str.charAt(char); //When this loop ends the generated pass stores the value in strlenght char.
     }
     setPass(generatedPass);
