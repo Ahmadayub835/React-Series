@@ -2,16 +2,14 @@ import React from "react"
 import UserContextProvider from "./Context/UserContextProvider"
 import Login from "./Components/Login"
 import Profile from "./Components/Profile"
-import Login2 from "./Components/Login2"
 
 function App() {
-
   return (
     <UserContextProvider>
-      <Login />
-      <Profile />
-      <Login2 />
-    </UserContextProvider>
+      <h1>This is the rendered</h1>
+    <Login />
+    <Profile />
+  </UserContextProvider>
   )
 }
 
