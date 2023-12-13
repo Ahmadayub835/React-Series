@@ -1,8 +1,8 @@
 import React from 'react'
 
 function Card({username , btnText ='Add me'}) 
+
 { // we can add directly value to this function.
-    console.log(username)
   return (
     <>
     <div>Card</div>

@@ -26,7 +26,7 @@ function App() {
 
   // UseRef hook:-
   const passRef = useRef(null);
-
+  
   //useCallback hook:-
   const CopyPasswordToClipboard = useCallback(() => {
     passRef.current?.select("");
@@ -34,10 +34,9 @@ function App() {
   }, [pass]);
 
   //useEffect hook:-
-  useEffect(() => {
-    passGenerator();
-  }, [length, number, char, passGenerator]); //this hook calls the main passgenerator.
-
+   useEffect(() => {
+     passGenerator();
+   }, [length, number, char, passGenerator]); 
   return (
     <>
       <h1 className="text-white text-center justify-center">Password Generator</h1>

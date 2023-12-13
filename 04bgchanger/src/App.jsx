@@ -2,6 +2,7 @@ import { useState } from "react";
 
 function App() {
   const [color,setColor] = useState('')
+  
   return (
     <>
       <div className="w-full h-screen m-0 p-0" style={{backgroundColor: color}}>
